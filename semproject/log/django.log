@@ -1,0 +1,686 @@
+INFO 2023-10-11 11:59:50,769 autoreload 2577 8639935104 Watching for file changes with StatReloader
+INFO 2023-10-11 12:00:39,749 autoreload 2636 8604443264 Watching for file changes with StatReloader
+INFO 2023-10-11 12:00:41,058 basehttp 2636 12960985088 "GET / HTTP/1.1" 200 12
+INFO 2023-10-11 12:00:45,614 basehttp 2636 12960985088 "GET / HTTP/1.1" 200 12
+INFO 2023-10-11 12:00:49,008 basehttp 2636 12960985088 "GET /eagle/ HTTP/1.1" 200 149
+INFO 2023-10-11 12:01:12,081 autoreload 2675 8667607680 Watching for file changes with StatReloader
+INFO 2023-10-11 12:01:22,017 basehttp 2675 13087113216 "GET /eagle/ HTTP/1.1" 200 145
+INFO 2023-10-11 12:01:23,854 basehttp 2675 13087113216 "GET /eagle/ HTTP/1.1" 200 149
+INFO 2023-10-11 12:01:28,557 basehttp 2675 13087113216 "GET / HTTP/1.1" 200 12
+INFO 2023-10-11 12:01:28,864 basehttp 2675 13087113216 "GET / HTTP/1.1" 200 12
+INFO 2023-10-11 12:01:33,979 basehttp 2675 13087113216 "GET / HTTP/1.1" 200 12
+WARNING 2023-10-11 12:01:37,046 log 2675 13087113216 Not Found: /gfre
+WARNING 2023-10-11 12:01:37,047 basehttp 2675 13087113216 "GET /gfre HTTP/1.1" 404 2422
+INFO 2023-10-11 12:01:43,398 basehttp 2675 13087113216 "GET / HTTP/1.1" 200 12
+INFO 2023-10-11 12:01:43,401 basehttp 2675 13103902720 "GET / HTTP/1.1" 200 12
+INFO 2023-10-11 12:01:47,814 basehttp 2675 13103902720 - Broken pipe from ('172.20.10.1', 49755)
+INFO 2023-10-11 12:01:47,815 basehttp 2675 13087113216 - Broken pipe from ('172.20.10.1', 49747)
+INFO 2023-10-11 12:01:49,847 basehttp 2675 13087113216 "GET /eagle/ HTTP/1.1" 200 145
+INFO 2023-10-11 12:32:09,364 autoreload 2675 8667607680 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-11 12:32:09,877 autoreload 4641 8672309888 Watching for file changes with StatReloader
+INFO 2023-10-11 12:32:24,280 autoreload 4641 8672309888 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-11 12:32:24,605 autoreload 4665 8593810048 Watching for file changes with StatReloader
+INFO 2023-10-11 12:32:30,495 basehttp 4665 12941115392 "GET /eagle/ HTTP/1.1" 200 147
+INFO 2023-10-11 12:32:33,551 basehttp 4665 12941115392 "GET /eagle/ HTTP/1.1" 200 149
+INFO 2023-10-11 12:32:34,388 basehttp 4665 12941115392 "GET / HTTP/1.1" 200 12
+INFO 2023-10-12 18:07:46,369 autoreload 38663 8600244864 Watching for file changes with StatReloader
+INFO 2023-10-12 18:07:48,237 basehttp 38663 12951744512 "GET / HTTP/1.1" 200 12
+WARNING 2023-10-12 18:07:48,918 log 38663 12968534016 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2023-10-12 18:07:48,918 basehttp 38663 12968534016 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2504
+WARNING 2023-10-12 18:07:48,932 log 38663 12968534016 Not Found: /apple-touch-icon.png
+WARNING 2023-10-12 18:07:48,933 basehttp 38663 12968534016 "GET /apple-touch-icon.png HTTP/1.1" 404 2468
+INFO 2023-10-13 07:25:12,573 autoreload 2334 8673546880 Watching for file changes with StatReloader
+INFO 2023-10-13 07:25:13,959 basehttp 2334 13101322240 "GET / HTTP/1.1" 200 12
+INFO 2023-10-13 07:25:15,852 basehttp 2334 13101322240 "GET / HTTP/1.1" 200 12
+WARNING 2023-10-13 07:25:18,574 log 2334 13101322240 Not Found: /coin
+WARNING 2023-10-13 07:25:18,575 basehttp 2334 13101322240 "GET /coin HTTP/1.1" 404 2420
+INFO 2023-10-13 07:25:34,121 autoreload 2334 8673546880 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/urls.py changed, reloading.
+INFO 2023-10-13 07:25:34,537 autoreload 2345 8673575552 Watching for file changes with StatReloader
+INFO 2023-10-13 07:26:13,235 autoreload 2345 8673575552 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/urls.py changed, reloading.
+INFO 2023-10-13 07:26:13,557 autoreload 2355 8641565312 Watching for file changes with StatReloader
+INFO 2023-10-13 07:26:28,937 autoreload 2355 8641565312 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/urls.py changed, reloading.
+INFO 2023-10-13 07:26:29,235 autoreload 2360 8668381824 Watching for file changes with StatReloader
+INFO 2023-10-13 07:26:32,431 basehttp 2360 13089402880 "GET /coin HTTP/1.1" 301 0
+ERROR 2023-10-13 07:26:37,733 log 2360 13089402880 Internal Server Error: /coin/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+sqlite3.OperationalError: database is locked
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py", line 23, in coin
+    save_coin.save()
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 814, in save
+    self.save_base(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 877, in save_base
+    updated = self._save_table(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1020, in _save_table
+    results = self._do_insert(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/base.py", line 1061, in _do_insert
+    return manager._insert(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/manager.py", line 87, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 1805, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/sql/compiler.py", line 1833, in execute_sql
+    self.connection.ops.fetch_returned_insert_columns(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/backends/base/operations.py", line 213, in fetch_returned_insert_columns
+    return cursor.fetchone()
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 97, in inner
+    with self:
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 91, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/utils.py", line 98, in inner
+    return func(*args, **kwargs)
+django.db.utils.OperationalError: database is locked
+ERROR 2023-10-13 07:26:37,744 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 500 115578
+INFO 2023-10-13 07:26:50,764 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 10
+INFO 2023-10-13 07:26:53,076 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 8
+INFO 2023-10-13 07:26:54,880 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 10
+INFO 2023-10-13 07:26:55,894 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 8
+INFO 2023-10-13 07:26:56,688 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 8
+INFO 2023-10-13 07:26:57,363 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 8
+INFO 2023-10-13 07:26:58,046 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 10
+INFO 2023-10-13 07:26:58,763 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 8
+INFO 2023-10-13 07:26:59,480 basehttp 2360 13089402880 "GET /coin/ HTTP/1.1" 200 8
+INFO 2023-10-13 07:27:03,784 basehttp 2360 13089402880 "GET / HTTP/1.1" 200 12
+INFO 2023-10-13 08:22:35,813 autoreload 2360 8668381824 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 08:22:36,207 autoreload 2669 8667660928 Watching for file changes with StatReloader
+INFO 2023-10-13 08:29:11,329 autoreload 2669 8667660928 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 08:29:11,770 autoreload 2687 8599409280 Watching for file changes with StatReloader
+INFO 2023-10-13 09:11:08,091 autoreload 2914 8666718848 Watching for file changes with StatReloader
+INFO 2023-10-13 09:11:09,518 basehttp 2914 13085900800 "GET / HTTP/1.1" 200 12
+INFO 2023-10-13 09:11:11,535 basehttp 2914 13085900800 "GET / HTTP/1.1" 200 12
+INFO 2023-10-13 09:11:15,923 basehttp 2914 13085900800 "GET /last_coins HTTP/1.1" 301 0
+ERROR 2023-10-13 09:11:15,964 log 2914 13085900800 Internal Server Error: /last_coins/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py", line 27, in last_coins
+    stat = SaveCoin.coin_variant(5)
+TypeError: 'DeferredAttribute' object is not callable
+ERROR 2023-10-13 09:11:15,964 basehttp 2914 13085900800 "GET /last_coins/ HTTP/1.1" 500 58638
+INFO 2023-10-13 09:11:32,888 autoreload 2914 8666718848 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-13 09:11:33,240 autoreload 2924 8642654848 Watching for file changes with StatReloader
+INFO 2023-10-13 09:12:12,322 autoreload 2924 8642654848 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-13 09:12:12,625 autoreload 2933 8630600320 Watching for file changes with StatReloader
+INFO 2023-10-13 09:12:17,080 basehttp 2933 13013880832 "GET /last_coins/ HTTP/1.1" 200 11
+INFO 2023-10-13 09:12:48,458 autoreload 2933 8630600320 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-13 09:12:48,766 autoreload 2943 8600711808 Watching for file changes with StatReloader
+ERROR 2023-10-13 09:12:52,430 log 2943 12955402240 Internal Server Error: /last_coins/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py", line 28, in last_coins
+    stat = SaveCoin.count_coins(5)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py", line 12, in count_coins
+    return SaveCoin.objects.all()[-n:]
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-10-13 09:12:52,432 basehttp 2943 12955402240 "GET /last_coins/ HTTP/1.1" 500 65369
+INFO 2023-10-13 09:13:02,206 autoreload 2943 8600711808 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-13 09:13:02,575 autoreload 2948 8661516928 Watching for file changes with StatReloader
+INFO 2023-10-13 09:21:06,801 autoreload 2948 8661516928 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py changed, reloading.
+INFO 2023-10-13 09:21:07,136 autoreload 2985 8668996224 Watching for file changes with StatReloader
+INFO 2023-10-13 09:21:36,943 autoreload 2985 8668996224 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:21:37,236 autoreload 2996 8598864512 Watching for file changes with StatReloader
+INFO 2023-10-13 09:21:46,229 basehttp 2996 12949323776 "GET /last_coins/ HTTP/1.1" 200 171
+INFO 2023-10-13 09:46:09,367 autoreload 2996 8598864512 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:46:09,738 autoreload 3321 8673698432 Watching for file changes with StatReloader
+ERROR 2023-10-13 09:46:14,589 log 3321 13098721280 Internal Server Error: /last_coins/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py", line 28, in last_coins
+    stat = SaveCoin.count_coins(5)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py", line 12, in count_coins
+    return SaveCoin.objects.all()[-5:]
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-10-13 09:46:14,591 basehttp 3321 13098721280 "GET /last_coins/ HTTP/1.1" 500 65369
+INFO 2023-10-13 09:47:29,824 autoreload 3321 8673698432 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:47:30,164 autoreload 3350 8596841088 Watching for file changes with StatReloader
+ERROR 2023-10-13 09:47:34,359 log 3350 12947546112 Internal Server Error: /last_coins/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem1/views.py", line 28, in last_coins
+    stat = SaveCoin.count_coins(5)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py", line 12, in count_coins
+    return SaveCoin.objects.all()[-n:]
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/db/models/query.py", line 429, in __getitem__
+    raise ValueError("Negative indexing is not supported.")
+ValueError: Negative indexing is not supported.
+ERROR 2023-10-13 09:47:34,363 basehttp 3350 12947546112 "GET /last_coins/ HTTP/1.1" 500 65369
+INFO 2023-10-13 09:47:57,960 autoreload 3350 8596841088 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:47:58,276 autoreload 3354 8664412800 Watching for file changes with StatReloader
+INFO 2023-10-13 09:48:02,259 basehttp 3354 13080334336 "GET /last_coins/ HTTP/1.1" 200 95
+INFO 2023-10-13 09:48:16,847 autoreload 3354 8664412800 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:48:17,145 autoreload 3359 8637493888 Watching for file changes with StatReloader
+INFO 2023-10-13 09:48:19,424 basehttp 3359 13025980416 "GET /last_coins/ HTTP/1.1" 200 95
+INFO 2023-10-13 09:48:28,578 autoreload 3359 8637493888 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:48:28,886 autoreload 3362 8607662720 Watching for file changes with StatReloader
+INFO 2023-10-13 09:51:27,923 basehttp 3362 12969889792 "GET / HTTP/1.1" 200 12
+INFO 2023-10-13 09:51:32,597 basehttp 3362 12969889792 "GET /last_coins/ HTTP/1.1" 200 95
+INFO 2023-10-13 09:53:40,118 autoreload 3362 8607662720 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem2/models.py changed, reloading.
+INFO 2023-10-13 09:53:40,435 autoreload 3390 8634352256 Watching for file changes with StatReloader
+INFO 2023-10-13 09:54:10,176 basehttp 3390 13022695424 "GET /last_coins/ HTTP/1.1" 200 42
+INFO 2023-10-16 18:17:56,295 autoreload 14423 8627405376 Watching for file changes with StatReloader
+INFO 2023-10-16 18:18:14,646 autoreload 14423 8627405376 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/urls.py changed, reloading.
+INFO 2023-10-16 18:18:14,939 autoreload 14438 8668787264 Watching for file changes with StatReloader
+INFO 2023-10-16 18:18:18,946 basehttp 14438 13090275328 "GET / HTTP/1.1" 200 12
+WARNING 2023-10-16 18:18:19,651 log 14438 13107064832 Not Found: /apple-touch-icon-precomposed.png
+WARNING 2023-10-16 18:18:19,652 basehttp 14438 13107064832 "GET /apple-touch-icon-precomposed.png HTTP/1.1" 404 2952
+WARNING 2023-10-16 18:18:19,659 log 14438 13107064832 Not Found: /apple-touch-icon.png
+WARNING 2023-10-16 18:18:19,660 basehttp 14438 13107064832 "GET /apple-touch-icon.png HTTP/1.1" 404 2916
+INFO 2023-10-16 18:18:22,081 basehttp 14438 13090275328 "GET / HTTP/1.1" 200 12
+WARNING 2023-10-16 18:18:24,089 log 14438 13090275328 Not Found: /about/
+WARNING 2023-10-16 18:18:24,090 basehttp 14438 13090275328 "GET /about/ HTTP/1.1" 404 2874
+INFO 2023-10-16 18:18:50,130 basehttp 14438 13090275328 "GET / HTTP/1.1" 200 12
+WARNING 2023-10-16 18:18:52,562 log 14438 13090275328 Not Found: /sem3/
+WARNING 2023-10-16 18:18:52,564 basehttp 14438 13090275328 "GET /sem3/ HTTP/1.1" 404 2871
+INFO 2023-10-16 18:19:13,049 autoreload 14438 8668787264 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/semproject/urls.py changed, reloading.
+INFO 2023-10-16 18:19:13,400 autoreload 14460 8630374976 Watching for file changes with StatReloader
+INFO 2023-10-16 18:19:20,489 basehttp 14460 13011836928 "GET / HTTP/1.1" 200 12
+INFO 2023-10-16 18:19:24,354 basehttp 14460 13011836928 "GET /sem3 HTTP/1.1" 301 0
+INFO 2023-10-16 18:19:24,358 basehttp 14460 13028626432 "GET /sem3/ HTTP/1.1" 200 163
+INFO 2023-10-16 18:19:31,122 basehttp 14460 13011836928 "GET /sem3/about HTTP/1.1" 301 0
+INFO 2023-10-16 18:19:31,126 basehttp 14460 13028626432 "GET /sem3/about/ HTTP/1.1" 200 216
+INFO 2023-10-16 18:28:21,875 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 200 748
+INFO 2023-10-16 18:28:24,654 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 200 748
+WARNING 2023-10-16 18:28:25,522 log 14460 13011836928 Not Found: /sem3/'/about'
+WARNING 2023-10-16 18:28:25,522 basehttp 14460 13011836928 "GET /sem3/'/about' HTTP/1.1" 404 3157
+INFO 2023-10-16 18:28:36,788 basehttp 14460 13011836928 "GET /sem3/about/ HTTP/1.1" 200 958
+INFO 2023-10-16 18:28:50,763 basehttp 14460 13011836928 "GET /sem3/about/ HTTP/1.1" 200 956
+INFO 2023-10-16 18:28:52,273 basehttp 14460 13011836928 "GET /sem3/about/ HTTP/1.1" 200 956
+INFO 2023-10-16 18:28:53,173 basehttp 14460 13011836928 "GET /sem3/about/ HTTP/1.1" 200 956
+INFO 2023-10-16 18:28:53,725 basehttp 14460 13011836928 "GET /sem3/about/ HTTP/1.1" 200 956
+WARNING 2023-10-16 18:28:54,739 log 14460 13011836928 Not Found: /about
+WARNING 2023-10-16 18:28:54,740 basehttp 14460 13011836928 "GET /about HTTP/1.1" 404 2870
+INFO 2023-10-16 18:29:11,674 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 200 755
+WARNING 2023-10-16 18:29:13,109 log 14460 13011836928 Not Found: /sem3/sem3/
+WARNING 2023-10-16 18:29:13,110 basehttp 14460 13011836928 "GET /sem3/sem3/ HTTP/1.1" 404 3118
+WARNING 2023-10-16 18:29:17,351 log 14460 13011836928 Not Found: /sem3/sem3/about
+WARNING 2023-10-16 18:29:17,352 basehttp 14460 13011836928 "GET /sem3/sem3/about HTTP/1.1" 404 3133
+WARNING 2023-10-16 18:29:32,264 log 14460 13011836928 Not Found: /sem3/sem3/
+WARNING 2023-10-16 18:29:32,266 basehttp 14460 13011836928 "GET /sem3/sem3/ HTTP/1.1" 404 3118
+INFO 2023-10-16 18:29:39,606 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 200 746
+ERROR 2023-10-16 18:31:57,136 log 14460 13011836928 Internal Server Error: /sem3/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'sem3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 5, in index
+    return render(request, 'sem3/index.html')
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'sem3' is not a registered namespace
+ERROR 2023-10-16 18:31:57,194 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 500 134482
+ERROR 2023-10-16 18:32:08,386 log 14460 13011836928 Internal Server Error: /sem3/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'sem3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 5, in index
+    return render(request, 'sem3/index.html')
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'sem3' is not a registered namespace
+ERROR 2023-10-16 18:32:08,397 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 500 134345
+ERROR 2023-10-16 18:32:52,352 log 14460 13011836928 Internal Server Error: /sem3/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'sem3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 5, in index
+    return render(request, 'sem3/index.html')
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'sem3' is not a registered namespace
+ERROR 2023-10-16 18:32:52,377 basehttp 14460 13011836928 "GET /sem3/ HTTP/1.1" 500 134246
+INFO 2023-10-16 18:32:59,958 autoreload 14607 8607146560 Watching for file changes with StatReloader
+ERROR 2023-10-16 18:33:02,975 log 14607 12967415808 Internal Server Error: /sem3/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'sem3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 5, in index
+    return render(request, 'sem3/index.html')
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'sem3' is not a registered namespace
+ERROR 2023-10-16 18:33:02,982 basehttp 14607 12967415808 "GET /sem3/ HTTP/1.1" 500 134246
+ERROR 2023-10-16 18:33:08,039 log 14607 12967415808 Internal Server Error: /sem3/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'sem3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 5, in index
+    return render(request, 'sem3/index.html')
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'sem3' is not a registered namespace
+ERROR 2023-10-16 18:33:08,044 basehttp 14607 12967415808 "GET /sem3/ HTTP/1.1" 500 134383
+ERROR 2023-10-16 18:33:08,651 log 14607 12967415808 Internal Server Error: /sem3/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 71, in reverse
+    extra, resolver = resolver.namespace_dict[ns]
+KeyError: 'sem3'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 5, in index
+    return render(request, 'sem3/index.html')
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 62, in render_to_string
+    return template.render(context, request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 61, in render
+    return self.template.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 175, in render
+    return self._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 157, in render
+    return compiled_parent._render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 167, in _render
+    return self.nodelist.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in render
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 1005, in <listcomp>
+    return SafeString("".join([node.render_annotated(context) for node in self]))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 966, in render_annotated
+    return self.render(context)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 471, in render
+    url = reverse(view_name, args=args, kwargs=kwargs, current_app=current_app)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/urls/base.py", line 82, in reverse
+    raise NoReverseMatch("%s is not a registered namespace" % key)
+django.urls.exceptions.NoReverseMatch: 'sem3' is not a registered namespace
+ERROR 2023-10-16 18:33:08,658 basehttp 14607 12967415808 "GET /sem3/ HTTP/1.1" 500 134109
+INFO 2023-10-16 18:33:25,560 autoreload 14614 8597262912 Watching for file changes with StatReloader
+INFO 2023-10-16 18:33:28,322 basehttp 14614 12947582976 "GET / HTTP/1.1" 200 12
+INFO 2023-10-16 18:33:32,997 basehttp 14614 12947582976 "GET / HTTP/1.1" 200 12
+INFO 2023-10-16 18:33:34,240 basehttp 14614 12947582976 "GET /sem3/ HTTP/1.1" 200 740
+INFO 2023-10-16 18:33:42,073 basehttp 14614 12947582976 "GET /sem3/about HTTP/1.1" 301 0
+INFO 2023-10-16 18:33:42,082 basehttp 14614 12947582976 "GET /sem3/about/ HTTP/1.1" 200 950
+INFO 2023-10-16 18:34:22,277 basehttp 14614 12947582976 "GET /sem3/ HTTP/1.1" 200 742
+INFO 2023-10-16 18:34:32,233 basehttp 14614 12964372480 "GET /sem3/ HTTP/1.1" 200 742
+INFO 2023-10-16 18:35:27,582 basehttp 14614 12947582976 "GET /sem3/ HTTP/1.1" 200 742
+INFO 2023-10-16 18:35:28,449 basehttp 14614 12947582976 "GET / HTTP/1.1" 200 12
+INFO 2023-10-16 18:35:33,200 basehttp 14614 12947582976 "GET /sem3/ HTTP/1.1" 200 742
+INFO 2023-10-16 18:36:51,977 autoreload 14656 8640352832 Watching for file changes with StatReloader
+INFO 2023-10-16 18:36:54,550 basehttp 14656 13031997440 "GET /sem3/ HTTP/1.1" 200 758
+INFO 2023-10-16 18:36:56,113 basehttp 14656 13031997440 "GET /sem3/ HTTP/1.1" 200 758
+INFO 2023-10-16 18:36:58,856 basehttp 14656 13031997440 "GET /sem3/about/ HTTP/1.1" 200 968
+INFO 2023-10-16 18:37:00,191 basehttp 14656 13031997440 "GET /sem3/ HTTP/1.1" 200 758
+INFO 2023-10-16 19:06:19,308 autoreload 14656 8640352832 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/models.py changed, reloading.
+INFO 2023-10-16 19:06:19,715 autoreload 14827 8608965184 Watching for file changes with StatReloader
+INFO 2023-10-16 19:06:34,065 autoreload 14827 8608965184 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/models.py changed, reloading.
+INFO 2023-10-16 19:06:34,502 autoreload 14836 8608531008 Watching for file changes with StatReloader
+INFO 2023-10-16 19:11:49,622 autoreload 14836 8608531008 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/models.py changed, reloading.
+INFO 2023-10-16 19:11:49,974 autoreload 14948 8594739776 Watching for file changes with StatReloader
+INFO 2023-10-16 19:26:22,621 autoreload 15120 8661709376 Watching for file changes with StatReloader
+INFO 2023-10-16 19:27:23,554 autoreload 15120 8661709376 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/urls.py changed, reloading.
+INFO 2023-10-16 19:27:23,903 autoreload 15144 8637772352 Watching for file changes with StatReloader
+INFO 2023-10-16 19:27:31,063 basehttp 15144 13028147200 "GET /sem3/author_posts HTTP/1.1" 301 0
+ERROR 2023-10-16 19:27:31,093 log 15144 13044936704 Internal Server Error: /sem3/author_posts/
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+TypeError: author_posts() missing 1 required positional argument: 'author_id'
+ERROR 2023-10-16 19:27:31,094 basehttp 15144 13044936704 "GET /sem3/author_posts/ HTTP/1.1" 500 56923
+INFO 2023-10-16 19:27:55,556 autoreload 15144 8637772352 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/urls.py changed, reloading.
+INFO 2023-10-16 19:27:55,888 autoreload 15154 8627077696 Watching for file changes with StatReloader
+ERROR 2023-10-16 19:28:01,126 log 15154 13008605184 Internal Server Error: /sem3/author_posts/3
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 16, in author_posts
+    return render(request, 'author_post.html', {'author': author, 'posts': posts})
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_post.html
+ERROR 2023-10-16 19:28:01,129 basehttp 15154 13008605184 "GET /sem3/author_posts/3 HTTP/1.1" 500 75777
+ERROR 2023-10-16 19:28:24,686 log 15154 13008605184 Internal Server Error: /sem3/author_posts/3
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 16, in author_posts
+    return render(request, 'author_post.html', {'author': author, 'posts': posts})
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_post.html
+ERROR 2023-10-16 19:28:24,689 basehttp 15154 13008605184 "GET /sem3/author_posts/3 HTTP/1.1" 500 75914
+INFO 2023-10-16 19:28:50,255 autoreload 15162 8630592064 Watching for file changes with StatReloader
+ERROR 2023-10-16 19:28:53,879 log 15162 13012488192 Internal Server Error: /sem3/author_posts/3
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 16, in author_posts
+    return render(request, 'author_post.html', {'author': author, 'posts': posts})
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_post.html
+ERROR 2023-10-16 19:28:53,881 basehttp 15162 13012488192 "GET /sem3/author_posts/3 HTTP/1.1" 500 75914
+WARNING 2023-10-16 19:28:56,246 log 15162 13012488192 Not Found: /sem3/author_posts/
+WARNING 2023-10-16 19:28:56,247 basehttp 15162 13012488192 "GET /sem3/author_posts/ HTTP/1.1" 404 3349
+ERROR 2023-10-16 19:28:58,748 log 15162 13012488192 Internal Server Error: /sem3/author_posts/4
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 16, in author_posts
+    return render(request, 'author_post.html', {'author': author, 'posts': posts})
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: author_post.html
+ERROR 2023-10-16 19:28:58,749 basehttp 15162 13012488192 "GET /sem3/author_posts/4 HTTP/1.1" 500 75777
+INFO 2023-10-16 19:29:48,452 autoreload 15162 8630592064 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py changed, reloading.
+INFO 2023-10-16 19:29:48,879 autoreload 15172 8672223808 Watching for file changes with StatReloader
+INFO 2023-10-16 19:29:49,172 basehttp 15172 13098053632 "GET /sem3/author_posts/4 HTTP/1.1" 200 761
+INFO 2023-10-16 19:30:05,800 autoreload 15184 8598204992 Watching for file changes with StatReloader
+INFO 2023-10-16 19:30:08,007 basehttp 15184 12950179840 "GET /sem3/author_posts/4 HTTP/1.1" 200 769
+INFO 2023-10-16 19:30:19,391 basehttp 15184 12950179840 "GET /sem3/author_posts/4 HTTP/1.1" 200 756
+ERROR 2023-10-16 19:32:36,410 log 15184 12950179840 Internal Server Error: /sem3/author_posts/4
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 505, in parse
+    compile_func = self.tags[command]
+KeyError: 'endblock'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/views.py", line 16, in author_posts
+    return render(request, 'sem3/author_post.html', {'author': author, 'posts': posts})
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/shortcuts.py", line 24, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader.py", line 15, in get_template
+    return engine.get_template(template_name)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/backends/django.py", line 33, in get_template
+    return Template(self.engine.get_template(template_name), self)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/engine.py", line 175, in get_template
+    template, origin = self.find_template(template_name)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/engine.py", line 157, in find_template
+    template = loader.get_template(name, skip=skip)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loaders/cached.py", line 57, in get_template
+    template = super().get_template(template_name, skip)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loaders/base.py", line 28, in get_template
+    return Template(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 154, in __init__
+    self.nodelist = self.compile_nodelist()
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 200, in compile_nodelist
+    return parser.parse()
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 293, in do_extends
+    nodelist = parser.parse()
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/loader_tags.py", line 232, in do_block
+    nodelist = parser.parse(("endblock",))
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 513, in parse
+    raise self.error(token, e)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 511, in parse
+    compiled_result = compile_func(self, token)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/defaulttags.py", line 853, in do_for
+    nodelist_loop = parser.parse(
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 507, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Users/denisvoropaev/PycharmProjects/django-seminars-gb/venv/lib/python3.10/site-packages/django/template/base.py", line 558, in invalid_block_tag
+    raise self.error(
+django.template.exceptions.TemplateSyntaxError: Invalid block tag on line 8: 'endblock', expected 'empty' or 'endfor'. Did you forget to register or load this tag?
+ERROR 2023-10-16 19:32:36,588 basehttp 15184 12950179840 "GET /sem3/author_posts/4 HTTP/1.1" 500 170693
+INFO 2023-10-16 19:32:56,967 basehttp 15184 12950179840 "GET /sem3/author_posts/4 HTTP/1.1" 200 972
+INFO 2023-10-16 19:33:23,125 basehttp 15184 12950179840 "GET /sem3/author_posts/4 HTTP/1.1" 200 1012
+INFO 2023-10-16 19:37:50,381 basehttp 15184 12950179840 "GET /sem3/author_posts/4 HTTP/1.1" 200 1434
+INFO 2023-10-16 19:44:11,360 autoreload 15184 8598204992 /Users/denisvoropaev/PycharmProjects/django-seminars-gb/semproject/sem3/urls.py changed, reloading.
+INFO 2023-10-16 19:44:11,766 autoreload 15401 8639582784 Watching for file changes with StatReloader
+INFO 2023-10-16 19:44:13,636 autoreload 15406 8675693120 Watching for file changes with StatReloader
+INFO 2023-10-16 19:44:20,038 basehttp 15406 13103001600 "GET /sem3/author_posts/1 HTTP/1.1" 200 725
+INFO 2023-10-16 19:44:24,944 basehttp 15406 13103001600 "GET /sem3/author_posts/3 HTTP/1.1" 200 1446
+INFO 2023-10-16 19:44:34,439 basehttp 15406 13103001600 "GET /sem3/post/13 HTTP/1.1" 200 1251
+INFO 2023-10-16 19:44:42,753 basehttp 15406 13103001600 "GET /sem3/post/19 HTTP/1.1" 200 1251
+INFO 2023-10-16 19:44:49,077 basehttp 15406 13103001600 "GET /sem3/author_posts/9 HTTP/1.1" 200 1476
+INFO 2023-10-16 19:44:51,824 basehttp 15406 13103001600 "GET /sem3/post/72 HTTP/1.1" 200 1245
